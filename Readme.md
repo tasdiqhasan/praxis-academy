@@ -9,7 +9,7 @@ Pengenalan Java
 - syntax dasar pemgrograman java
 
 ## Penjelasan Isi Repo
-- file-file ekstensi java disimpan di folder files
+- file-file ekstensi java hasil latihan disimpan di folder files
 
 ## License 
 [MIT](http://opensource.org/licenses/MIT)
