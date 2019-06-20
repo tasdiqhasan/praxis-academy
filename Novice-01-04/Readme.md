@@ -12,6 +12,8 @@ Pengenalan OOP, automation tools dan exception handling
 ## Penjelasan Isi Repo
 - file-file hasil latihan disimpan didalam folder files/latihan/
   - file MobilApp.jar adalah hasil dari latihan point no 2, penjelasan singkat: pengaplikasian object, class, inheritance dan interface dengan object mobil,
+- file demo gradle ada di folder demo_gradle
+  - penjelasanya singkat : gradle digunakan untuk automasi dalam membuat java apps mulai dari awal memulai menggenerate java application, struktur file dan folder, test nya sampai dengan run java apps.
 - file-file kasus disimpan di dalam folder files/kasus/
 
 ## License 
