@@ -1,3 +1,0 @@
-Manifest-version: 1.0
-Created-By: 1.0 Tasdiq Hasan
-Main-Class: MobilApp.Main
