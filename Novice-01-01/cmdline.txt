@@ -1,0 +1,13 @@
+$ ls
+cmdline.txt
+
+$ ls -all
+total 5
+drwxr-xr-x 1 HSN 197121  0 Jun 17 15:00 ./
+drwxr-xr-x 1 HSN 197121  0 Jun 17 14:29 ../
+-rw-r--r-- 1 HSN 197121 21 Jun 17 15:04 cmdline.txt
+
+$ mkdir 30shellscript
+
+$ mkdir kasus
+
