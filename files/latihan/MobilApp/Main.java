@@ -1,3 +1,6 @@
+
+package MobilApp;
+
 // mendefinisikan interface
 interface Kendaraan {
 
@@ -58,7 +61,7 @@ class Truk extends Mobil {
 }
 
 // main class
-class MobilApp {
+public class Main {
     public static void main(String[] args) {
 
         // object mobil pertama
