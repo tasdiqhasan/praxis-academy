@@ -1,4 +1,7 @@
-class Base
+/**
+ * contoh anotasi ovveride
+ */
+public class Base
 {
      public void Display()
      {

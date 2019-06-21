@@ -1,3 +1,6 @@
+/**
+ *  contoh anotasi @deprecated
+ */
 public class DeprecatedTest
 {
     @Deprecated

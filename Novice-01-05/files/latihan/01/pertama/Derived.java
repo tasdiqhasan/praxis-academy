@@ -1,3 +1,6 @@
+/**
+ * contoh anotasi pertama
+ */
 class Base
 {
      public void display()
@@ -5,7 +8,7 @@ class Base
          System.out.println("Base display()");
      }
 }
-class Derived extends Base
+public class Derived extends Base
 {
      @Override
      public void display()

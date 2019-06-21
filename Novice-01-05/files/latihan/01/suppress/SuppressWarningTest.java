@@ -1,3 +1,6 @@
+/**
+ * contoh anotasi suppress warning
+ */
 class DeprecatedTest
  {
     @Deprecated
