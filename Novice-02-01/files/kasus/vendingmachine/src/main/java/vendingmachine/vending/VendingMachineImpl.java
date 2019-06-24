@@ -105,26 +105,22 @@ public class VendingMachineImpl implements VendingMachine {
             changes = new ArrayList<Coin>();
             long balance = amount;
             while(balance > 0){
-                if(balance >= Coin.QUARTER.getDenomination() 
-                            && cashInventory.hasItem(Coin.QUARTER)){
+                if(balance >= Coin.QUARTER.getDenomination() && cashInventory.hasItem(Coin.QUARTER)){
                     changes.add(Coin.QUARTER);
                     balance = balance - Coin.QUARTER.getDenomination();
                     continue;
                    
-                }else if(balance >= Coin.DIME.getDenomination() 
-                                 && cashInventory.hasItem(Coin.DIME)) {
+                }else if(balance >= Coin.DIME.getDenomination() && cashInventory.hasItem(Coin.DIME)) {
                     changes.add(Coin.DIME);
                     balance = balance - Coin.DIME.getDenomination();
                     continue;
                    
-                }else if(balance >= Coin.NICKLE.getDenomination() 
-                                 && cashInventory.hasItem(Coin.NICKLE)) {
+                }else if(balance >= Coin.NICKLE.getDenomination() && cashInventory.hasItem(Coin.NICKLE)) {
                     changes.add(Coin.NICKLE);
                     balance = balance - Coin.NICKLE.getDenomination();
                     continue;
                    
-                }else if(balance >= Coin.PENNY.getDenomination() 
-                                 && cashInventory.hasItem(Coin.PENNY)) {
+                }else if(balance >= Coin.PENNY.getDenomination() && cashInventory.hasItem(Coin.PENNY)) {
                     changes.add(Coin.PENNY);
                     balance = balance - Coin.PENNY.getDenomination();
                     continue;

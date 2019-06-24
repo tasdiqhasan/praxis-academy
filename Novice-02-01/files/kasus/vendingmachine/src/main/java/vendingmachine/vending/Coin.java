@@ -1,6 +1,7 @@
 package vending; 
 /** 
- * * Coins supported by Vending Machine. * @author Javin Paul
+ * * Coins supported by Vending Machine. 
+ * @author Javin Paul
  * @param  getDenomination( [description]
  * @return                  [description]
  */
