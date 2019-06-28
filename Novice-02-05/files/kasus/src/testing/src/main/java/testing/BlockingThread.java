@@ -1,4 +1,4 @@
-package com.javageeks.concurrency.testing;
+package testing;
 
 public class BlockingThread extends Thread {
     private SimpleBlockingQueue queue;

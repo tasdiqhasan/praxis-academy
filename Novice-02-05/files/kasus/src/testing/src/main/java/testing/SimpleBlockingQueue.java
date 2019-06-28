@@ -1,4 +1,6 @@
-package com.javageeks.concurrency.testing;
+package testing;
+
+import java.util.*;
 
 public class SimpleBlockingQueue<T> {
     private List<T> queue = new LinkedList<T>();
